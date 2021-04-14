@@ -1,6 +1,6 @@
 #include<atm_operations.h>
 
-unsigned long balance=10000, PIN=0272;
+unsigned long balance=10000, PIN=1272;
 int k;
 char transaction = 'y';
 
@@ -8,12 +8,23 @@ void check_pin()
 {
     unsigned long pin;
     
+    printf("\n Enter PIN number : ");
     for(int i=0;i<3;i++) {
-        printf("\n Enter PIN number : ");
-        scanf("%lu\n", &pin);
+        scanf("%lu", &pin);
         if(pin == PIN)
         {
-            return;
+            transactions();
+            exit(0);
+        }
+        else
+        {
+            if (i != 2){
+                printf("\n Incorrect pin. Please Enter the correct pin : ");
+            } else 
+            {
+                printf("\n Card blocked for transaction for 24 hours.\n");
+                exit(1);
+            }
         }
     }
     exit(1);
@@ -29,7 +40,7 @@ void deposit_cash()
 {
     unsigned long dep_amount;
     printf("\n Enter the amount to be deposited : ");
-    scanf("%lu\n", &dep_amount);
+    scanf("%lu", &dep_amount);
     balance = balance + dep_amount;
     printf("\n The new balance is : %lu", balance);
 }
@@ -38,7 +49,7 @@ void withdraw_cash()
 {
     unsigned long wd_amount;
     printf("\n Enter the withdrawal amount : ");
-    scanf("%lu\n", &wd_amount);
+    scanf("%lu", &wd_amount);
     if(wd_amount % 100 != 0)
     {
         printf("\n Enter the withdrawal amount in multiples of 100 : ");
@@ -59,7 +70,7 @@ void change_pin()
 {
     unsigned long pin;
     printf("\n Enter the new ATM pin : ");
-    scanf("%lu\n", &pin);
+    scanf("%lu", &pin);
     if(pin != PIN)
         printf("\n ATM pin changed successfully.");
 }
@@ -75,7 +86,7 @@ void transactions()
         printf("\n Press 4 for changing pin.");
         printf("\n Press 5 to exit.");
         printf("\n Enter your choice : ");
-        scanf("%d\n", &choice);
+        scanf("%d", &choice);
         switch(choice)
         {
             case 1:check_balance();
@@ -97,6 +108,6 @@ void transactions()
         if(transaction == 'n' || transaction == 'N')
             k = 1;
     }while(!k);
-    printf("\n Thanks for using our ATM service.");
+    printf("\n Thanks for using our ATM service.\n");
 }
 
