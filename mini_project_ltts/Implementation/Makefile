@@ -18,26 +18,26 @@ unity/unity.c\
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 #All include folders with header files
-INC = -Iinc\
+INC = -Iinclude\
 -Iunity\
 
 #To check whether the os is Windows or Linux
-ifdef os
-	RM = del/q
-	FixPath = $(subst /,\,$1)
-	EXEC = exe
-else
-	ifeq($(shell uname), Linux)
-		RM = rm -rf
-		FixPath = $1
-			EXEC = out
-	endif
-endif
+#ifdef os
+#	RM = del/q
+#	FixPath = $(subst /,\,$1)
+#	EXEC = exe
+#else
+#	ifeq($(shell uname), Linux)
+#		RM = rm -rf
+#		FixPath = $1
+#		EXEC = out
+#	endif
+#endif
 
 
 #Library Includes
 #INCLUDE_LIBS = 
-INCLUDE_LIBS = -lcunit
+INCLUDE_LIBS = -Icunit
 
 #Project output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
@@ -61,9 +61,9 @@ doc:
 
 
 #Build and run the unit tests
-test: $(BUILD)
-		gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS) 
-		./$(TEST_OUTPUT)
+#test: $(BUILD)
+#		gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS) 
+#		./$(TEST_OUTPUT)
 
 
 #Remove all the built files, invoke by `make clean`

@@ -6,19 +6,18 @@ char transaction = 'y';
 
 void check_pin()
 {
-    unsigned long pin, count=1,i;
-    printf("\n Enter PIN number : ");
-    scanf("%lu\n", &pin);
-    if(pin != PIN)
-    {
-        for(i=1;i<3;i++)
+    unsigned long pin;
+    
+    for(int i=0;i<3;i++) {
+        printf("\n Enter PIN number : ");
+        scanf("%lu\n", &pin);
+        if(pin == PIN)
         {
-            printf("\n Re-Enter PIN : ");
-            scanf("%lu\n",&pin);
+            return;
         }
     }
-    else
-        transactions();
+    exit(1);
+    // Failed for 3 times
 }
 
 void check_balance()
@@ -100,3 +99,4 @@ void transactions()
     }while(!k);
     printf("\n Thanks for using our ATM service.");
 }
+
