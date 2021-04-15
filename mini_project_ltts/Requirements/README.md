@@ -13,6 +13,6 @@ Millions of times per day around the globe people are instantly withdrawing mone
 
 #### **System Specifications**
 
-  - Hardware Requirements:
-  - Software Requirements:
+  - **Hardware Requirements:**
+  - **Software Requirements:**
   
