@@ -10,9 +10,13 @@ FEATURES
 
 
 •	Deposit cash
+
 •	Withdraw cash
+
 •	Check balance amount
+
 •	Change PIN
+
 
 FOLDER STRUCTURE
 
