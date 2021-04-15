@@ -23,3 +23,4 @@ Millions of times per day around the globe people are instantly withdrawing mone
       - Operating System      **:**   **Ubuntu 20.04**
       - Front-End             **:**   **Microsoft Visual Studio Code**
       - Programming Language  **:**   **C**
+  - **Display**
