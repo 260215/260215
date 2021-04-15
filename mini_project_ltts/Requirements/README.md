@@ -27,4 +27,10 @@ Millions of times per day around the globe people are instantly withdrawing mone
       - Resolution    **:**   **1920 X 1080**
 
 
-#### **System Study and Analysis**
+#### **Testing**
+
+ Software testing is a critical element of software quality assurance and represents the ultimate review of specification, design and code generation.  The increasing visibility of software as a system element and the attendant “cost” associated with a software failure are motivating force for well planned, through testing.
+ 
+ All the functions are tested against various test cases.
+
+
