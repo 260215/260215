@@ -32,4 +32,4 @@ jobs:
       - name: make all
         run: |
           make all -C mini_project_ltts/Implementation/
-          valgrind ./mini_project_ltts/Implementation/build/Test_CalculatorATM.out.out
+          valgrind ./mini_project_ltts/Implementation/build/ATM.out.out
