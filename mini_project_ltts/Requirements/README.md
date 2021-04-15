@@ -14,12 +14,12 @@ Millions of times per day around the globe people are instantly withdrawing mone
 #### **System Specifications**
 
   - **Hardware Requirements:**
-      - Processor       **:**       Intel Core i5 8th Gen
-      - Processor Speed **:**       2.7 GHz
-      - RAM             **:**       8GB
-      - SSD             **:**       256GB
-      - Hard Disk       **:**       1TB
+      - Processor       **:**       **Intel Core i5 8th Gen**
+      - Processor Speed **:**       **2.7 GHz**
+      - RAM             **:**       **8GB**
+      - SSD             **:**       **256GB**
+      - Hard Disk       **:**       **1TB**
   - **Software Requirements:**
-      - Operating System      **:**
-      - Front-End             **:**
-      - Programming Language  **:**
+      - Operating System      **:**   **Ubuntu 20.04**
+      - Front-End             **:**   **Microsoft Visual Studio Code**
+      - Programming Language  **:**   **C**
