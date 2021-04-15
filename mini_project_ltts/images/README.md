@@ -1,0 +1,1 @@
+It contains the screenshot of the output generated.
