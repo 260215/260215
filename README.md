@@ -7,12 +7,16 @@ On inserting the ATM card into the card slot, the machine would prompt the user 
 
 
 FEATURES
+
+
 •	Deposit cash
 •	Withdraw cash
 •	Check balance amount
 •	Change PIN
 
 FOLDER STRUCTURE
+
+
 Sl_no	        Folder	                     Description
   1	        Requirements	      Documents detailing requirements & research
   2	        Implementation	    Coding and documentation
