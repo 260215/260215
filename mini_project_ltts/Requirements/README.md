@@ -24,3 +24,4 @@ Millions of times per day around the globe people are instantly withdrawing mone
       - Front-End             **:**   **Microsoft Visual Studio Code**
       - Programming Language  **:**   **C**
   - **Display**
+      - Resolution    **:**   **1920 X 1080**
