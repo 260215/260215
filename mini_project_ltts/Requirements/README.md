@@ -25,3 +25,6 @@ Millions of times per day around the globe people are instantly withdrawing mone
       - Programming Language  **:**   **C**
   - **Display**
       - Resolution    **:**   **1920 X 1080**
+
+
+#### **System Study and Analysis**
