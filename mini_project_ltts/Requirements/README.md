@@ -14,10 +14,10 @@ Millions of times per day around the globe people are instantly withdrawing mone
 #### **System Specifications**
 
   - **Hardware Requirements:**
-      - Processor       :
-      - Processor Speed :
-      - RAM             :
-      - SSD             :
-      - Hard Disk       :
+      - Processor       **:**
+      - Processor Speed **:**
+      - RAM             **:**
+      - SSD             **:**
+      - Hard Disk       **:**
   - **Software Requirements:**
   
