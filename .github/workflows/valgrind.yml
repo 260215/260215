@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make test -C mini_project_ltts/Implementation/
-        valgrind ./mini_project_ltts/Implementation/build/ATM.out
+        valgrind ./mini_project_ltts/Implementation/build/ATM.out.out
