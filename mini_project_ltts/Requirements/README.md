@@ -4,3 +4,8 @@
 
 
 The introduction of ATM’s by various banks have brought about freedom from the interminable queues in front of withdrawal counters at banks. This ATM Simulation System requires the constant updating of records between the bank servers and a spread out network of ATM’s. Security is the foundation of a good ATM system. This system will provide for secure authenticated connections between users and the bank servers. The whole process will be automated right from PIN (Personal Identification Number) validation to transaction completion. ATM Simulation System will enable two important features of an ATM, reduction of human error in the banking system and the possibility of 24 hour personal banking. The card details and PIN database will be a secure module that will not be open to routine maintenance, the only possibility of access to this database will be through queries raised from an ATM in the presence of a valid bank ATM card.
+
+
+#### **Need for an ATM Machine**
+
+
