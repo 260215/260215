@@ -20,10 +20,12 @@ FEATURES
 
 FOLDER STRUCTURE
 
+SL_No           Folder                      Description
 
-Sl_no	        Folder	                     Description
-  1	        Requirements	      Documents detailing requirements & research
-  2	        Implementation	    Coding and documentation
-  3	        Architecture	      Design details
-  4	        Images	            Screenshot of output
-
+  1             Requirements            It contains detailing and research work.
+  
+  2             Architecture            It contains the required UML diagrams describing design details.
+  
+  3             Implementation          It contains the coding and documentation.
+  
+  4             Images                  It contains screenshots of the output.
