@@ -29,7 +29,7 @@ jobs:
           sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev
 
       # Runs a set of commands using the runners shell
-      - name: make test
+      - name: make all
         run: |
-          make test -C mini_project_ltts/Implementation/
+          make all -C mini_project_ltts/Implementation/
           valgrind ./mini_project_ltts/Implementation/build/Test_CalculatorATM.out.out
