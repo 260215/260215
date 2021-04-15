@@ -9,3 +9,8 @@
 
 
    # **FEATURES**
+
+      - Deposit Cash
+      - Withdraw Cash
+      - Check balance amount
+      - Change PIN
