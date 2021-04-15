@@ -19,5 +19,6 @@
 
    ## **FOLDERS AND THEIR DESCRIPTION**
 
-
-     |   **Sl_No**    |       Folders       |                Description                       |
+      
+     |____________|_____________________|__________________________________________________|  
+     |   Sl_No    |       Folders       |                Description                       |
