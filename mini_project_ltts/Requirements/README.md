@@ -14,7 +14,7 @@ Millions of times per day around the globe people are instantly withdrawing mone
 #### **System Specifications**
 
   - **Hardware Requirements:**
-      - Processor       **:**
+      - Processor       **:**       Intel Core i5 8th Gen
       - Processor Speed **:**
       - RAM             **:**
       - SSD             **:**
