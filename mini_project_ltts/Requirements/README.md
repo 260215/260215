@@ -8,4 +8,4 @@ The introduction of ATM’s by various banks have brought about freedom from the
 
 #### **Need for an ATM Machine**
 
-
+Millions of times per day around the globe people are instantly withdrawing money at automatic teller machines (ATMs).  Given the fast-pace of the world today, it is not surprising that the demand for access to quick cash is so immense.  The power of ATMs would not be possible without secure connections. The final act of ATM dispending cash is the result of an amazingly fast burst of the customer never sees, but a trust is being done in a confidential manner.
