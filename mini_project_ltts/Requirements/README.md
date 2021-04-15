@@ -20,6 +20,6 @@ Millions of times per day around the globe people are instantly withdrawing mone
       - SSD             **:**       256GB
       - Hard Disk       **:**       1TB
   - **Software Requirements:**
-      - Operating System    **:**
-      - Front-End           **:**
-      - Programming Language**:**
+      - Operating System      **:**
+      - Front-End             **:**
+      - Programming Language  **:**
